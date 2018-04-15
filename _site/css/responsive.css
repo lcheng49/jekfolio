@@ -1,0 +1,98 @@
+@media only screen and (min-width: 650px){
+
+	.proj p{
+		overflow-wrap: break-word;
+	}
+	.proj .itt {
+    width: 48%;
+    height: 500px;
+		float: left;
+		display: inline-block; vertical-align: top;
+	}
+	.proj .tx {
+    width: 48%;
+    height: 500px;
+    float right;
+		display: inline-block;
+	}
+	.proj .opena {
+    width: 48%;
+    height: 600px;
+		float: left;
+		display: inline-block; vertical-align: top;
+
+	}
+	.proj .eecsthree {
+    width: 48%;
+    height: 600px;
+    float right;
+		display: inline-block; vertical-align: top;
+	}
+	.proj .eecsfour {
+    width: 48%;
+    height: 600px;
+    float left;
+		display: inline-block; vertical-align: top;
+	}
+  .proj .ikea {
+    width: 48%;
+    height: 700px;
+		float: left;
+		display: inline-block; vertical-align: top;
+
+	}
+	.proj .twooh {
+    width: 48%;
+    height: 700px;
+    float right;
+		display: inline-block; vertical-align: top;
+	}
+}
+@media only screen and (min-width: 1000px){
+
+	.proj p{
+		overflow-wrap: break-word;
+	}
+	.proj .itt {
+    width: 30%;
+    height: 500px;
+		float: left;
+		display: inline-block; vertical-align: top;
+	}
+	.proj .tx {
+    width: 30%;
+    height: 500px;
+    float right;
+		display: inline-block;
+	}
+	.proj .opena {
+    width: 30%;
+    height: 500px;
+		display: inline-block; vertical-align: top;
+
+	}
+	.proj .eecsthree {
+    width: 30%;
+    height: 600px;
+    float left;
+		display: inline-block; vertical-align: top;
+	}
+
+	.proj .eecsfour {
+    width: 30%;
+    height: 600px;
+		display: inline-block; vertical-align: top;
+	}
+  .proj .ikea {
+    width: 30%;
+    height: 700px;
+		display: inline-block; vertical-align: top;
+
+	}
+	.proj .twooh {
+    width: 30%;
+    height: 700px;
+    float right;
+		display: inline-block; vertical-align: top;
+	}
+}
