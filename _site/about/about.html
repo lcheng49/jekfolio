@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ <meta charset="utf-8">
+
+ <title>Luke Portfolio</title>
+ <link rel="shortcut icon" href="ppictures/favicon.ico" type="image/x-icon">
+ <link rel="icon" href="ppictures/favicon.ico" type="image/x-icon">
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/yolo.css">
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <script src="js/snowstorm.js"></script>
+
+</head>
+
+<body>
+
+<header class="header">
+
+ <div class="header_1">
+
+   <h1>Luke<span>Cheng</span></h1>
+
+
+   <nav>
+     <a href="index.html">Home</a>
+     <a href="work.html">Work</a>
+     <a href="about.html">About</a>
+     <a href="resume.html">Resume</a>
+   </nav>
+
+   <script>
+   var url = "https://lcheng49.github.io/portfolio/about.html".split("/");
+   var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+   var i=0;
+   var currentPage = url[url.length - 1];
+   for(i;i<navLinks.length;i++){
+     var lb = navLinks[i].href.split("/");
+     if(lb[lb.length-1] == currentPage) {
+      navLinks[i].className = "current";
+     }
+     }
+   </script>
+
+ </div>
+
+</header>
+
+
+<div class="main">
+  <div id= "snow">
+
+ <h1>Luke Cheng</h1>
+ <h2>All About Me</h2>
+ <p>
+   Hi, my name is Luke and I am a developer! I am passionate about coding and people!
+   <br />I hope to one day add a lot more content to this website
+   and also do a lot more cool projects.
+   <br  />While most of my skills are coding focused, I am interested in UX and want to learn.
+   <br />
+   I love to play tennis, eat, play video games, play piano/guitar and a bunch of other stuff.
+   <br />Taco Bell is by far my favorite fast food
+   and I also love IHOP.
+   <br />My favorite city in the world (as of now) is Orlando and I have attached a map.
+   <br  /> Also the background describes the current Michigan Weather.
+ </p>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224444.0643059941!2d-81.50918023184778!3d28.48139856035391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773d8fecdbc77%3A0xac3b2063ca5bf9e!2sOrlando%2C+FL!5e0!3m2!1sen!2sus!4v1523054854037" width="600" height="450" style="border:0" allowfullscreen></iframe>
+  </div>
+
+</div>
+</div>
+
+<footer class="footer">
+  <a href="https://www.tacobell.com/"><img src="ppictures/tbell.png" class="icon" alt="TacoBell"></a>
+  <a href="https://github.com/lcheng49"><img src="ppictures/github.png" class="icon" alt="Github"></a>
+   <a href="https://www.linkedin.com/in/luke-cheng-18a183145/"><img src="ppictures/linkedin.png" class="icon" alt="LinkedIn"></a>
+   <p><i>Luke Cheng &copy; 2018</i></p>
+ </footer>
+</body>
+
+</html>

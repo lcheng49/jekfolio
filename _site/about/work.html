@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ <meta charset="utf-8">
+
+ <title>Luke Portfolio</title>
+ <link rel="shortcut icon" href="ppictures/favicon.ico" type="image/x-icon">
+ <link rel="icon" href="ppictures/favicon.ico" type="image/x-icon">
+ <link rel="stylesheet" href="css/yolo.css">
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/responsive.css" >
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+
+ <div class="header_1">
+
+   <h1>Luke<span>Cheng</span></h1>
+
+
+   <nav>
+     <a href="index.html">Home</a>
+     <a href="work.html">Work</a>
+     <a href="about.html">About</a>
+     <a href="resume.html">Resume</a>
+   </nav>
+   <script>
+   var url = "https://lcheng49.github.io/portfolio/work.html".split("/");
+   var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+   var i=0;
+   var currentPage = url[url.length - 1];
+   for(i;i<navLinks.length;i++){
+     var lb = navLinks[i].href.split("/");
+     if(lb[lb.length-1] == currentPage) {
+      navLinks[i].className = "current";
+     }
+     }
+   </script>
+ </div>
+
+</header>
+
+
+<div class="main">
+
+  <h2>Projects!</h2>
+  <div class = "proj">
+  <div class="itt">
+    <h3>Image2Text</h3>
+    <img src= "ppictures/itt.png" alt = "image2text" />
+    <p>
+      Worked with another developer intern and design intern to create webapp that converted handwritten
+      words to online text (our team did not code the scanner)
+    </p>
+  </div>
+  <div class="tx">
+    <h3>Translation Exchange</h3>
+    <img src= "ppictures/tx.png" alt = "Translation Exchange" />
+    <p>
+      Worked with team of 12 other interns to develop a full website supporting a mobile Bible translation
+      application. Website allowed users to create profiles to
+      import, export, edit, listen, comment and sort various files.
+    </p>
+  </div>
+  <div class="opena">
+    <h3>Open Air Challenge</h3>
+    <img src= "ppictures/openair.png" alt = "Open Air Challenge" />
+    <p>
+      Worked with team of 3 other SI students to develop an accessible website using wordpress for a
+      non-profit organization.
+    </p>
+  </div>
+  <div class="eecsthree">
+    <h3>Pipelined LC-2K</h3>
+    <img src= "ppictures/370.png" alt = "EECS 370 Project" />
+    <p>
+      Created a cycle-accurate behavioral simulator
+    for a pipelined implementation of the LC-2K (8 register, 32-bit computer), complete with data forwarding and
+    simple branch prediction (EECS 370). <br />(Didn't have a picture so I included a photo of my favorite fast food)
+    </p>
+  </div>
+  <div class="ikea">
+    <h3>IKEA Place Usability Test</h3>
+    <img src= "ppictures/ikea.png" alt = "THE IKEA PLACE" />
+    <p>
+      Part of team that conducted in-depth surveying, testing and analysis of IKEA's augmented reality application (Part of SI 422).
+    </p>
+  </div>
+  <div class="twooh">
+    <h3>206 API Project</h3>
+    <img src= "ppictures/206.png" alt = "SI206" />
+    <p>
+      Learned to use API's from Facebook and Youtube to manipulate data (Part of SI 206)
+      (Couldn't find a suitable photo so used the album cover of my current favorite song)
+    </p>
+  </div>
+  <div class="eecsfour">
+    <h3>Instagram (Fake)</h3>
+    <img src= "ppictures/foureight.png" alt = "Static Instagram" />
+    <p>
+      Created "Instagram" using static html pages and templates (Part of EECS 485).
+    </p>
+  </div>
+  </div>
+</div>
+<footer class="footer">
+  <a href="https://www.tacobell.com/"><img src="ppictures/tbell.png" class="icon" alt="TacoBell"></a>
+  <a href="https://github.com/lcheng49"><img src="ppictures/github.png" class="icon" alt="Github"></a>
+   <a href="https://www.linkedin.com/in/luke-cheng-18a183145/"><img src="ppictures/linkedin.png" class="icon" alt="LinkedIn"></a>
+   <p><i>Luke Cheng &copy; 2018</i></p>
+ </footer>
+</body>
+
+</html>
